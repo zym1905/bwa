@@ -61,6 +61,8 @@ mem_opt_t *mem_opt_init()
 
 	o->max_mem_intv = 20;
 
+	o->is_64 = 0;
+
 	o->min_seed_len = 19;
 	o->split_width = 10;
 	o->max_occ = 500;
